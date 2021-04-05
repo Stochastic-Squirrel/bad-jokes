@@ -35,7 +35,7 @@ repos:
         args: ['--in-place', '--remove-all-unused-imports', '--remove-unused-variable']
 
 -   repo: https://github.com/timothycrosley/isort
-    rev: main
+    rev: 5.8.0
     hooks:
       - id: isort
 
@@ -50,7 +50,7 @@ repos:
       - id: mypy
 
 -   repo: https://github.com/myint/docformatter
-    rev: master
+    rev: v1.4
     hooks:
     - id: docformatter
 
